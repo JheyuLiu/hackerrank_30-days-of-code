@@ -8,17 +8,16 @@ import (
 )
 
 func main() {
-	scanner := bufio.NewScanner(os.Stdin)
-	scanner.Scan()
-	si, _ := strconv.ParseUint(scanner.Text(), 10, 64)
+	var si uint64
+	var sd float64
 
-	scanner.Scan()
-	sd, _ := strconv.ParseFloat(scanner.Text(), 64)
+	fmt.Scan(&si)
+	fmt.Scan(&sd)
 
 	scanner.Scan()
 	ss := scanner.Text()
 
-	fmt.Println(i+si)
+	fmt.Println(i + si)
 	fmt.Printf("%.1f\n", d+sd)
-	fmt.Println(s+ss)
+	fmt.Println(s + ss)
 }
