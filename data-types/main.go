@@ -14,6 +14,7 @@ func main() {
 	fmt.Scan(&si)
 	fmt.Scan(&sd)
 
+    scanner := bufio.NewScanner(os.Stdin)
 	scanner.Scan()
 	ss := scanner.Text()
 
