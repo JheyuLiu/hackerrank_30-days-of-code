@@ -10,3 +10,4 @@
 8. Day 7: Arrays https://www.hackerrank.com/challenges/30-arrays/problem
 9. Day 8: Dictionaries and Maps https://www.hackerrank.com/challenges/30-dictionaries-and-maps/problem
 10. Day 9: Recursion 3 https://www.hackerrank.com/challenges/30-recursion/problem
+11. Day 10: Binary Numbers https://www.hackerrank.com/challenges/30-binary-numbers/problem
