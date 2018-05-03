@@ -16,3 +16,4 @@
 14. Day 13: Abstract Classes https://www.hackerrank.com/challenges/30-abstract-classes/problem
 15. Day 14: Scope https://www.hackerrank.com/challenges/30-scope/problem
 16. Day 15: Linked List https://www.hackerrank.com/challenges/30-linked-list/problem
+17. Day 16: Exceptions - String to Integer https://www.hackerrank.com/challenges/30-exceptions-string-to-integer/problem
