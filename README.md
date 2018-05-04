@@ -18,3 +18,4 @@
 16. Day 15: Linked List https://www.hackerrank.com/challenges/30-linked-list/problem
 17. Day 16: Exceptions - String to Integer https://www.hackerrank.com/challenges/30-exceptions-string-to-integer/problem
 18. Day 17: More Exceptions https://www.hackerrank.com/challenges/30-more-exceptions/problem
+19. Day 18: Queues and Stacks https://www.hackerrank.com/challenges/30-queues-stacks/problem
