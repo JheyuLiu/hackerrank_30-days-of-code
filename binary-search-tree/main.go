@@ -88,7 +88,6 @@ func main() {
 		fmt.Scan(&data)
 		myTree.insert(data)
 	}
-    fmt.Println("MyTree root:", myTree.root.data)
 	height := myTree.get_height(myTree.root)
 	fmt.Println(height)
 }
