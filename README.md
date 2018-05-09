@@ -23,3 +23,4 @@
 21. Day 20: Sorting https://www.hackerrank.com/challenges/30-sorting/problem
 22. Day 21: Generics https://www.hackerrank.com/challenges/30-generics/problem
 23. Day 22: Binary Search Trees https://www.hackerrank.com/challenges/30-binary-search-trees/problem
+24. Day 23: BST Level-Order Traversal https://www.hackerrank.com/challenges/30-binary-trees/problem
