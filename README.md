@@ -27,3 +27,5 @@
 25. Day 24: More Linked Lists https://www.hackerrank.com/challenges/30-linked-list-deletion/problem
 26. Day 25: Running Time and Complexity https://www.hackerrank.com/challenges/30-running-time-and-complexity/problem
 27. Day 26: Nested Logic https://www.hackerrank.com/challenges/30-nested-logic/problem
+28. Day 27: Testing https://www.hackerrank.com/challenges/30-testing/problem
+29. Day 28: RegEx, Patterns, and Intro to Databases https://www.hackerrank.com/challenges/30-regex-patterns/problem
