@@ -29,3 +29,4 @@
 27. Day 26: Nested Logic https://www.hackerrank.com/challenges/30-nested-logic/problem
 28. Day 27: Testing https://www.hackerrank.com/challenges/30-testing/problem
 29. Day 28: RegEx, Patterns, and Intro to Databases https://www.hackerrank.com/challenges/30-regex-patterns/problem
+30. Day 29: Bitwise AND https://www.hackerrank.com/challenges/30-bitwise-and/problem
