@@ -3,9 +3,9 @@ package main
 import "fmt"
 
 type Node struct {
-	left *Node
+	left  *Node
 	right *Node
-	data int
+	data  int
 }
 
 type Bst struct {
@@ -47,35 +47,17 @@ func (bst *Bst) get_height(node *Node) int {
 		return 0
 	}
 
-	max_left_depth := bst.depth_search(node.left)
-	max_right_depth := bst.depth_search(node.right)
-	
+	max_left_depth := bst.get_height(node.left) + 1
+	max_right_depth := bst.get_height(node.right) + 1
+
 	var max_depth int
 	if max_left_depth > max_right_depth {
 		max_depth = max_left_depth
-	}else {
+	} else {
 		max_depth = max_right_depth
 	}
 
 	return max_depth
-}
-
-func (bst *Bst) depth_search(node *Node) int {
-	if node == nil {
-		return 0
-	}
-
-	left_count := bst.depth_search(node.left) + 1
-	right_count := bst.depth_search(node.right) + 1
-
-	var depth_count int
-	if left_count > right_count {
-		depth_count = left_count
-	}else {
-		depth_count = right_count
-	}
-
-	return depth_count
 }
 
 func (bst *Bst) levelOrder(node *Node) {
@@ -91,7 +73,7 @@ func (bst *Bst) print_levelOrder(node *Node, level int) {
 	}
 
 	if level == 0 {
-		fmt.Print(node.data," ")
+		fmt.Print(node.data, " ")
 	} else if level > 0 {
 		bst.print_levelOrder(node.left, level-1)
 		bst.print_levelOrder(node.right, level-1)
